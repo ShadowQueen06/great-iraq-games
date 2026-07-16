@@ -1,0 +1,287 @@
+[
+  {
+    "country": "العراق",
+    "capital": "بغداد",
+    "currency": "الدينار العراقي"
+  },
+  {
+    "country": "السعودية",
+    "capital": "الرياض",
+    "currency": "الريال السعودي"
+  },
+  {
+    "country": "الكويت",
+    "capital": "مدينة الكويت",
+    "currency": "الدينار الكويتي"
+  },
+  {
+    "country": "قطر",
+    "capital": "الدوحة",
+    "currency": "الريال القطري"
+  },
+  {
+    "country": "الإمارات",
+    "capital": "أبوظبي",
+    "currency": "الدرهم الإماراتي"
+  },
+  {
+    "country": "البحرين",
+    "capital": "المنامة",
+    "currency": "الدينار البحريني"
+  },
+  {
+    "country": "عمان",
+    "capital": "مسقط",
+    "currency": "الريال العماني"
+  },
+  {
+    "country": "الأردن",
+    "capital": "عمان",
+    "currency": "الدينار الأردني"
+  },
+  {
+    "country": "لبنان",
+    "capital": "بيروت",
+    "currency": "الليرة اللبنانية"
+  },
+  {
+    "country": "سوريا",
+    "capital": "دمشق",
+    "currency": "الليرة السورية"
+  },
+  {
+    "country": "مصر",
+    "capital": "القاهرة",
+    "currency": "الجنيه المصري"
+  },
+  {
+    "country": "ليبيا",
+    "capital": "طرابلس",
+    "currency": "الدينار الليبي"
+  },
+  {
+    "country": "تونس",
+    "capital": "تونس",
+    "currency": "الدينار التونسي"
+  },
+  {
+    "country": "الجزائر",
+    "capital": "الجزائر",
+    "currency": "الدينار الجزائري"
+  },
+  {
+    "country": "المغرب",
+    "capital": "الرباط",
+    "currency": "الدرهم المغربي"
+  },
+  {
+    "country": "السودان",
+    "capital": "الخرطوم",
+    "currency": "الجنيه السوداني"
+  },
+  {
+    "country": "تركيا",
+    "capital": "أنقرة",
+    "currency": "الليرة التركية"
+  },
+  {
+    "country": "إيران",
+    "capital": "طهران",
+    "currency": "الريال الإيراني"
+  },
+  {
+    "country": "فرنسا",
+    "capital": "باريس",
+    "currency": "اليورو"
+  },
+  {
+    "country": "ألمانيا",
+    "capital": "برلين",
+    "currency": "اليورو"
+  },
+  {
+    "country": "إيطاليا",
+    "capital": "روما",
+    "currency": "اليورو"
+  },
+  {
+    "country": "إسبانيا",
+    "capital": "مدريد",
+    "currency": "اليورو"
+  },
+  {
+    "country": "البرتغال",
+    "capital": "لشبونة",
+    "currency": "اليورو"
+  },
+  {
+    "country": "بريطانيا",
+    "capital": "لندن",
+    "currency": "الجنيه الإسترليني"
+  },
+  {
+    "country": "اليونان",
+    "capital": "أثينا",
+    "currency": "اليورو"
+  },
+  {
+    "country": "هولندا",
+    "capital": "أمستردام",
+    "currency": "اليورو"
+  },
+  {
+    "country": "بلجيكا",
+    "capital": "بروكسل",
+    "currency": "اليورو"
+  },
+  {
+    "country": "سويسرا",
+    "capital": "برن",
+    "currency": "الفرنك السويسري"
+  },
+  {
+    "country": "النمسا",
+    "capital": "فيينا",
+    "currency": "اليورو"
+  },
+  {
+    "country": "النرويج",
+    "capital": "أوسلو",
+    "currency": "الكرونة النرويجية"
+  },
+  {
+    "country": "السويد",
+    "capital": "ستوكهولم",
+    "currency": "الكرونة السويدية"
+  },
+  {
+    "country": "الدنمارك",
+    "capital": "كوبنهاغن",
+    "currency": "الكرونة الدنماركية"
+  },
+  {
+    "country": "فنلندا",
+    "capital": "هلسنكي",
+    "currency": "اليورو"
+  },
+  {
+    "country": "روسيا",
+    "capital": "موسكو",
+    "currency": "الروبل الروسي"
+  },
+  {
+    "country": "أوكرانيا",
+    "capital": "كييف",
+    "currency": "الهريفنيا"
+  },
+  {
+    "country": "الولايات المتحدة",
+    "capital": "واشنطن",
+    "currency": "الدولار الأمريكي"
+  },
+  {
+    "country": "كندا",
+    "capital": "أوتاوا",
+    "currency": "الدولار الكندي"
+  },
+  {
+    "country": "المكسيك",
+    "capital": "مكسيكو",
+    "currency": "البيزو المكسيكي"
+  },
+  {
+    "country": "البرازيل",
+    "capital": "برازيليا",
+    "currency": "الريال البرازيلي"
+  },
+  {
+    "country": "الأرجنتين",
+    "capital": "بوينس آيرس",
+    "currency": "البيزو الأرجنتيني"
+  },
+  {
+    "country": "تشيلي",
+    "capital": "سانتياغو",
+    "currency": "البيزو التشيلي"
+  },
+  {
+    "country": "بيرو",
+    "capital": "ليما",
+    "currency": "السول"
+  },
+  {
+    "country": "كولومبيا",
+    "capital": "بوغوتا",
+    "currency": "البيزو الكولومبي"
+  },
+  {
+    "country": "اليابان",
+    "capital": "طوكيو",
+    "currency": "الين الياباني"
+  },
+  {
+    "country": "الصين",
+    "capital": "بكين",
+    "currency": "اليوان الصيني"
+  },
+  {
+    "country": "كوريا الجنوبية",
+    "capital": "سيول",
+    "currency": "الوون الكوري"
+  },
+  {
+    "country": "الهند",
+    "capital": "نيودلهي",
+    "currency": "الروبية الهندية"
+  },
+  {
+    "country": "باكستان",
+    "capital": "إسلام آباد",
+    "currency": "الروبية الباكستانية"
+  },
+  {
+    "country": "إندونيسيا",
+    "capital": "جاكرتا",
+    "currency": "الروبية الإندونيسية"
+  },
+  {
+    "country": "ماليزيا",
+    "capital": "كوالالمبور",
+    "currency": "الرينغيت"
+  },
+  {
+    "country": "سنغافورة",
+    "capital": "سنغافورة",
+    "currency": "الدولار السنغافوري"
+  },
+  {
+    "country": "تايلاند",
+    "capital": "بانكوك",
+    "currency": "البات"
+  },
+  {
+    "country": "أستراليا",
+    "capital": "كانبرا",
+    "currency": "الدولار الأسترالي"
+  },
+  {
+    "country": "نيوزيلندا",
+    "capital": "ويلينغتون",
+    "currency": "الدولار النيوزيلندي"
+  },
+  {
+    "country": "جنوب أفريقيا",
+    "capital": "بريتوريا",
+    "currency": "الراند"
+  },
+  {
+    "country": "نيجيريا",
+    "capital": "أبوجا",
+    "currency": "النايرا"
+  },
+  {
+    "country": "إثيوبيا",
+    "capital": "أديس أبابا",
+    "currency": "البير"
+  }
+]
