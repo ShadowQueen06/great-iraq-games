@@ -50,10 +50,7 @@ function numberButtons() {
                 new ButtonBuilder().setCustomId(`solo_guess_${n}`).setLabel(String(n)).setStyle(ButtonStyle.Primary)
             )
         ),
-        new ActionRowBuilder().addComponents(
-            new ButtonBuilder().setCustomId("solo").setLabel("رجوع").setEmoji("🔙").setStyle(ButtonStyle.Secondary),
-            new ButtonBuilder().setCustomId("close").setLabel("إغلاق").setEmoji("❌").setStyle(ButtonStyle.Danger)
-        )
+
     ];
 }
 
@@ -71,10 +68,7 @@ function rpsButtons() {
             new ButtonBuilder().setCustomId("solo_rps_paper").setLabel("ورقة").setEmoji("📄").setStyle(ButtonStyle.Primary),
             new ButtonBuilder().setCustomId("solo_rps_scissors").setLabel("مقص").setEmoji("✂️").setStyle(ButtonStyle.Primary)
         ),
-        new ActionRowBuilder().addComponents(
-            new ButtonBuilder().setCustomId("solo").setLabel("رجوع").setEmoji("🔙").setStyle(ButtonStyle.Secondary),
-            new ButtonBuilder().setCustomId("close").setLabel("إغلاق").setEmoji("❌").setStyle(ButtonStyle.Danger)
-        )
+
     ];
 }
 
@@ -105,7 +99,7 @@ async function handleButton(interaction) {
                         ? `✅ صح! الرقم كان ${real}\n\n🪙 +${rewards.soloCoins}\n⭐ +${rewards.soloXp}`
                         : `❌ خطأ. الرقم كان ${real}`)
             ],
-            components: menuButtons()
+            components: []
         });
     }
 
@@ -144,7 +138,7 @@ async function handleButton(interaction) {
 ${result === "win" ? `✅ فزت!\n🪙 +${rewards.soloCoins}\n⭐ +${rewards.soloXp}` : result === "lose" ? "❌ خسرت." : "تعادل!"}
                     `)
             ],
-            components: menuButtons()
+            components: []
         });
     }
 
@@ -167,7 +161,7 @@ ${result === "win" ? `✅ فزت!\n🪙 +${rewards.soloCoins}\n⭐ +${rewards.so
 ${win ? `✅ فزت!\n🪙 +${rewards.soloCoins}\n⭐ +${rewards.soloXp}` : userRoll === botRoll ? "تعادل!" : "❌ خسرت."}
                     `)
             ],
-            components: menuButtons()
+            components: []
         });
     }
 
