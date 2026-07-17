@@ -1,1 +1,40 @@
-const quiz=require("../games/quiz.js");const xo=require("../games/xo.js");const solo=require("../games/solo.js");const groupLobby=require("../games/groupLobby.js");const tf=require("../games/truefalse.js");const blackjack=require("../games/blackjack.js");module.exports=async i=>{try{if(!i.isButton())return;if(i.customId.startsWith('lobby_'))return groupLobby.handleButton(i);if(i.customId.startsWith('xo_'))return xo.handleButton(i);if(i.customId.startsWith('quiz_answer_'))return quiz.handleButton(i);if(i.customId.startsWith('solo_'))return solo.handleButton(i);if(i.customId.startsWith('tf_'))return tf.handleButton(i);if(i.customId.startsWith('bj_'))return blackjack.handleButton(i);}catch(e){console.error('Interaction error:',e);if(!i.replied&&!i.deferred)i.reply({content:'صار خطأ.',ephemeral:true}).catch(()=>{});}};
+const quiz = require("../games/quiz.js");
+const xo = require("../games/xo.js");
+const groupLobby = require("../games/groupLobby.js");
+const tf = require("../games/truefalse.js");
+const blackjack = require("../games/blackjack.js");
+
+module.exports = async interaction => {
+  try {
+    if (!interaction.isButton()) return;
+
+    if (interaction.customId.startsWith("lobby_")) {
+      return groupLobby.handleButton(interaction);
+    }
+
+    if (interaction.customId.startsWith("xo_")) {
+      return xo.handleButton(interaction);
+    }
+
+    if (interaction.customId.startsWith("quiz_answer_")) {
+      return quiz.handleButton(interaction);
+    }
+
+    if (interaction.customId.startsWith("tf_")) {
+      return tf.handleButton(interaction);
+    }
+
+    if (interaction.customId.startsWith("bj_")) {
+      return blackjack.handleButton(interaction);
+    }
+  } catch (error) {
+    console.error("Interaction error:", error);
+
+    if (!interaction.replied && !interaction.deferred) {
+      await interaction.reply({
+        content: "صار خطأ.",
+        ephemeral: true
+      }).catch(() => {});
+    }
+  }
+};
